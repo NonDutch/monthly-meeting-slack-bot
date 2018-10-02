@@ -16,7 +16,7 @@ const dropMessage = () => {
   const nextMeeting = date.add(missingDays, 'days')
 
   if (moment().isSame(moment(nextMeeting).add(-1, 'days'), 'day')) {
-    message = 'Just a friendly reminder the *Monthly Meeting* is going to happen tomorrow! :sparkles:'
+    message = 'Just a friendly reminder: The *Monthly Meeting* is going to happen tomorrow! :sparkles:'
   }
 
   if (moment().isSame(moment(nextMeeting), 'day')) {
