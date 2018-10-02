@@ -14,8 +14,7 @@ const dropMessage = () => {
 
 	const currentWeekday = date.isoWeekday()
 	const missingDays = ((wednesday - currentWeekday) + 7) % 7
-	// const nextMeeting = date.add(missingDays, 'days')
-	const nextMeeting = moment()
+	const nextMeeting = date.add(missingDays, 'days')
 
 	if (moment().isSame(moment(nextMeeting).add(-1, 'days'), 'day')) {
 		message = 'Just a friendly reminder the *Monthly Meeting* is going to happen tomorrow! :sparkles:'
