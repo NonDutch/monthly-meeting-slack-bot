@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@slack/client": "^4.6.0",
+    "cron": "^1.4.1",
+    "moment": "^2.22.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
