@@ -1,5 +1,5 @@
 ## 🤖 monthly-meeting-slack-bot
-Monthly alert about our team's monthly meeting
+Monthly alert for our team's monthly meeting
 
 ### Setup
 `yarn add global now && yarn`
