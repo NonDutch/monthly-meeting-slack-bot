@@ -1,11 +1,14 @@
-### monthly-meeting-slack-bot
+## monthly-meeting-slack-bot
 Monthly alert about our team's monthly meeting
 
-#### Setup
+### Setup
 `yarn add global now && yarn`
 
-#### Config
+### Config
 `mv now.json.example now.json && vi now.json`
 
-#### Deploy
+### Deploy
 `now`
+
+### License
+The Unlicense
